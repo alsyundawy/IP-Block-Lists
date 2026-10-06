@@ -897,7 +897,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 175.215.195.81,abuse,proxy-abuse,SSH port-forward abuse (external IP-check tunnel),[abuse|proxy|ssh-tunnel],2026-09-17,2026-09-17
 176.53.159.38,abuse,proxy-abuse,SSH port-forward abuse (external IP-check tunnel),[abuse|proxy|ssh-tunnel],2026-07-07,2026-07-07
 176.53.159.54,abuse,proxy-abuse,SSH port-forward abuse (external IP-check tunnel),[abuse|proxy|ssh-tunnel],2026-07-11,2026-07-29
-176.53.159.196,abuse,proxy-abuse,SSH port-forward abuse (external IP-check tunnel),[abuse|proxy|ssh-tunnel],2026-07-01,2026-10-02
+176.53.159.196,abuse,proxy-abuse,SSH port-forward abuse (external IP-check tunnel),[abuse|proxy|ssh-tunnel],2026-07-01,2026-10-05
 176.65.139.224,abuse,ddos-reflector,DNS amplification query (confirmed non-spoofed via prior fingerprint/query),[amplification|ddos|dns|reflector|fingerprint],2026-05-25,2026-06-27
 176.65.148.252,abuse,ddos-reflector,DNS amplification query (confirmed non-spoofed via prior fingerprint/query),[amplification|ddos|dns|reflector|fingerprint|scanner|zmap],2026-07-07,2026-08-31
 176.172.239.193,abuse,proxy-abuse,SSH port-forward abuse (relay pivot to external host),[abuse|pivot|proxy|ssh-tunnel|ssh],2026-08-16,2026-08-16
@@ -4965,7 +4965,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 117.57.205.36,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-03-08,2026-07-05
 117.62.22.127,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-03-17,2026-09-24
 117.62.201.172,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-08-26,2026-08-26
-117.62.203.160,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-03-22,2026-09-20
+117.62.203.160,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-03-22,2026-10-05
 117.65.56.236,botnet node,mirai,Mirai-family shell-verification handshake,[handshake|mirai|worm],2026-07-28,2026-07-28
 117.72.35.56,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-08-05,2026-09-26
 117.72.68.94,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-09-27,2026-09-27
@@ -7538,6 +7538,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 194.146.47.161,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-07-02,2026-07-02
 194.156.249.154,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-07-15,2026-08-12
 194.163.174.168,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-08-28,2026-08-28
+194.164.21.97,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-10-05,2026-10-05
 194.164.59.59,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-04-20,2026-08-21
 194.164.91.60,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-06-25,2026-07-02
 194.180.11.186,botnet node,cryptominer,outlaw/mdrfckr,[worm|crypto|infected|backdoor],2026-07-27,2026-08-09
@@ -10388,6 +10389,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 132.255.117.114,intrusion,connect,PPTP tunnel established,[pptp],2026-09-17,2026-09-17
 134.19.48.146,intrusion,router,MikroTik RouterOS hijack,[mikrotik|router|rce],2026-07-08,2026-07-08
 134.122.43.38,intrusion,remote,VNC session established,[remote|vnc],2026-07-08,2026-07-08
+134.122.107.213,intrusion,remote,VNC session established,[remote|vnc],2026-10-05,2026-10-05
 134.175.222.132,intrusion,remote,VNC session established,[remote|vnc],2026-07-02,2026-10-04
 134.209.69.7,intrusion,remote,VNC session established,[remote|vnc],2026-07-09,2026-07-15
 134.209.70.227,intrusion,remote,VNC session established,[friendly-scanner|recon|sip|sipvicious|voip|nmap|scanner|vnc|remote|masscan|fuzz|ics|modbus],2026-09-03,2026-09-03
@@ -10588,6 +10590,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 157.245.239.23,intrusion,remote,VNC session established,[remote|vnc],2026-07-26,2026-07-26
 157.245.241.172,intrusion,software,Docker daemon takeover,[container|docker|rce],2026-06-25,2026-06-29
 157.250.205.144,intrusion,remote,VNC session established,[remote|vnc],2026-07-02,2026-07-19
+158.94.208.97,intrusion,connect,PPTP tunnel established,[pptp],2026-10-05,2026-10-05
 158.101.161.27,intrusion,router,MikroTik RouterOS hijack,[mikrotik|router|rce],2026-07-03,2026-07-03
 158.173.155.240,intrusion,ics,Modbus coil write (confirmed ICS write),[ics|modbus|write],2026-07-09,2026-07-09
 158.179.164.202,intrusion,remote,VNC session established,[vnc|remote],2026-05-06,2026-09-20
@@ -10671,7 +10674,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 165.245.194.151,intrusion,remote,VNC session established,[remote|vnc],2026-09-25,2026-10-05
 165.245.219.84,intrusion,remote,VNC session established,[remote|vnc],2026-09-03,2026-09-13
 166.155.49.234,intrusion,router,MikroTik RouterOS hijack,[mikrotik|router|rce],2026-08-21,2026-08-21
-166.166.133.103,intrusion,remote,VNC session established,[remote|vnc],2026-09-13,2026-09-25
+166.166.133.103,intrusion,remote,VNC session established,[remote|vnc],2026-09-13,2026-10-05
 166.166.133.104,intrusion,remote,VNC session established,[remote|vnc],2026-09-13,2026-09-20
 166.166.178.226,intrusion,remote,VNC session established,[remote|vnc],2026-09-13,2026-09-14
 167.71.37.121,intrusion,remote,VNC session established,[remote|vnc],2026-09-13,2026-09-13
@@ -14969,6 +14972,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 122.165.141.251,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-08-25,2026-09-09
 122.172.243.249,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-07-03,2026-09-09
 122.175.42.234,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-08-25,2026-09-09
+122.176.213.162,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-10-05,2026-10-05
 122.193.248.4,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-09-02,2026-09-02
 123.17.215.101,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-07-03,2026-07-03
 123.52.229.81,recon,wordpress,WordPress REST API root fingerprint,[api|http|wordpress],2026-10-03,2026-10-03
@@ -16341,7 +16345,7 @@ ip,category,detail,note,tags,first_seen,last_seen
 185.65.134.194,recon,voip,"SIP-only, high connect volume",[sip|voip],2026-08-05,2026-08-06
 185.65.164.190,recon,docker,Docker daemon recon sweep,[docker],2026-07-25,2026-07-25
 185.72.234.96,recon,docker,Docker Swarm info probe,[docker|swarm],2026-09-09,2026-09-09
-185.80.50.31,recon,ddos,,[amplification|ddos|dns],2026-06-07,2026-09-20
+185.80.50.31,recon,ddos,,[amplification|ddos|dns],2026-06-07,2026-10-05
 185.85.241.48,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-08-24,2026-08-24
 185.85.241.49,recon,rdp,RDP scanner tool fingerprint (nmap/zgrab/placeholder credential),[nmap|rdp|scanner|zgrab],2026-08-26,2026-09-05
 185.93.89.37,recon,ics,Modbus device identification,[ics|modbus],2026-08-25,2026-08-25
